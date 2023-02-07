@@ -1,0 +1,16 @@
+E:\C#\Lesson 28\Lesson 28\bin\Debug\Lesson 28.exe.config
+E:\C#\Lesson 28\Lesson 28\bin\Debug\Lesson 28.exe
+E:\C#\Lesson 28\Lesson 28\bin\Debug\Lesson 28.pdb
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.csproj.AssemblyReference.cache
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.csproj.SuggestedBindingRedirects.cache
+E:\C#\Lesson 28\Lesson 28\obj\Debug\MainWindow.g.cs
+E:\C#\Lesson 28\Lesson 28\obj\Debug\App.g.cs
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28_MarkupCompile.cache
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28_MarkupCompile.lref
+E:\C#\Lesson 28\Lesson 28\obj\Debug\MainWindow.baml
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.g.resources
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson_28.Properties.Resources.resources
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.csproj.GenerateResource.cache
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.csproj.CoreCompileInputs.cache
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.exe
+E:\C#\Lesson 28\Lesson 28\obj\Debug\Lesson 28.pdb

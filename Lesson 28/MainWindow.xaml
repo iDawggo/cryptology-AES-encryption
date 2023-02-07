@@ -1,0 +1,27 @@
+﻿<Window x:Class="Lesson_28.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_28"
+        mc:Ignorable="d"
+        Title="Lesson 28" Height="500" Width="500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" FontWeight="Bold" Text="Plaintext Input (Hexadecimal, 128 bits / 32 characters, no spaces):" Height="16" FontFamily="Tw Cen MT" FontSize="14"/>
+        <TextBox x:Name="inPlain" HorizontalAlignment="Center" Height="17" Margin="0,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" FontFamily="Consolas" TextChanged="inPlain_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" FontWeight="Bold" Text="Key Input (Hexadecimal, 128 bits / 32 characters, no spaces):" Height="16" FontFamily="Tw Cen MT" FontSize="14"/>
+        <TextBox x:Name="inKey" HorizontalAlignment="Center" Height="17" Margin="0,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" FontFamily="Consolas" TextChanged="inKey_TextChanged"/>
+        <Button x:Name="calculate" Content="CALCULATE" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Top" Width="480" Height="49" FontFamily="Tw Cen MT" FontWeight="Bold" FontStyle="Italic" FontSize="36" Click="calculate_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Text="Outputs" TextDecorations="Underline"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Text="Start of Round" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="317,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Text="After SubBytes" TextAlignment="Center"/>
+        <TextBox x:Name="outRoundOne" HorizontalAlignment="Left" Margin="10,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="220" FontFamily="Consolas" TextAlignment="Center"/>
+        <TextBox x:Name="outSubBytes" HorizontalAlignment="Left" Margin="250,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="220" FontFamily="Consolas" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Text="After ShiftRows" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Text="After MixColumns" TextAlignment="Center"/>
+        <TextBox x:Name="outShiftRows" HorizontalAlignment="Left" Margin="10,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="220" FontFamily="Consolas" TextAlignment="Center"/>
+        <TextBox x:Name="outMixColumns" HorizontalAlignment="Left" Margin="250,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="220" FontFamily="Consolas" TextAlignment="Center"/>
+        <TextBlock x:Name="outErrors" HorizontalAlignment="Center" Margin="0,429,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="14" Foreground="Red" Height="45" Width="482"/>
+
+    </Grid>
+</Window>
